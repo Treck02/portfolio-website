@@ -1,3 +1,10 @@
+header {
+  background-color: #D3D3D3;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 3px solid #4a4a4a
+}
+
 body {
   background-color: #ffffff;
   font-family: 'Fira Sans', sans-serif;
@@ -10,7 +17,7 @@ body {
   /* Sets the line-height to 1.6 * the font-size */
   color: #4a4a4a;
 }
-
+footer {}
 
 img {
   width: 100%;
@@ -52,7 +59,7 @@ h4 {
     /* Underlining when hovering over a link */
   }
   a:visited { /* visited link */
-    color: #f00000;
+    color: #ffffff;
   }
   a:active { /* selected link */
     color: #994c30;}
@@ -70,4 +77,3 @@ h4 {
       opacity: 0.8; /* Reduces the opacity of the button to 80% */
       text-decoration: none;
     }
- 
