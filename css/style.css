@@ -52,7 +52,7 @@ h4 {
     /* Underlining when hovering over a link */
   }
   a:visited { /* visited link */
-    color: #ff7f50;
+    color: #f00000;
   }
   a:active { /* selected link */
     color: #994c30;}
