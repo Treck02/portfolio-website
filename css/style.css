@@ -1,6 +1,6 @@
 body {
   background-color: #ffffff;
-  CSS rules to specify families font-family: 'Fira Sans', sans-serif;
+   font-family: 'Fira Sans', sans-serif;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   /* Sets the font size to 16px */
@@ -38,7 +38,7 @@ h3 {
 h4 {
   font-size: 1.35em;
   font-weight: 400;
-
+}
   a {
     color: #ff7f50;
     text-decoration: none;
@@ -55,7 +55,7 @@ h4 {
     color: #ff7f50;
   }
   a:active { /* selected link */
-    color: #994c30;
+    color: #994c30;}
     .button {
       display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
       background-color: #ff7f50;
