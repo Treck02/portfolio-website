@@ -4,7 +4,31 @@ header {
   margin: 10px;
   border-bottom: 3px solid #4a4a4a
 }
-
+.logo{
+  max-width: 250px;
+}
+.container{
+  padding: 0 15px;
+}
+footer {
+  background-color: #D3D3D3;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 3px solid #4a4a4a
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: iline-block;
+}
+nav > ul >li >a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
 body {
   background-color: #ffffff;
   font-family: 'Fira Sans', sans-serif;
