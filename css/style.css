@@ -1,21 +1,14 @@
 header {
   background-color: #D3D3D3;
   padding: 10px;
-  margin: 10px;
+  margin: 0px;
   border-bottom: 3px solid #4a4a4a
 }
-.logo{
-  max-width: 250px;
-}
+
 .container{
   padding: 0 15px;
 }
-footer {
-  background-color: #D3D3D3;
-  padding: 10px;
-  margin: 10px;
-  border-bottom: 3px solid #4a4a4a
-}
+
 nav > ul {
   list-style-type: none;
   padding: 0;
@@ -41,10 +34,24 @@ body {
   /* Sets the line-height to 1.6 * the font-size */
   color: #4a4a4a;
 }
+main {
+  padding-top: 133px;
+}
 #hero h1 {
   text-align: center; /* Centers text */
 }
-footer {}
+#hero {
+  background-color: #ffe4c4;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+footer {
+  background-color: #D3D3D3;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 3px solid #4a4a4a
+}
 
 img {
   width: 100%;
