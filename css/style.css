@@ -21,7 +21,7 @@ nav > ul {
   padding: 0;
 }
 nav > ul > li {
-  display: iline-block;
+  display: inline-block;
 }
 nav > ul >li >a {
   padding: 0 15px;
@@ -40,6 +40,9 @@ body {
   line-height: 1.6;
   /* Sets the line-height to 1.6 * the font-size */
   color: #4a4a4a;
+}
+#hero h1 {
+  text-align: center; /* Centers text */
 }
 footer {}
 
