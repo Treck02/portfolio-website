@@ -1,113 +1,136 @@
 header {
-  background-color: #D3D3D3;
-  padding: 10px;
-  margin: 0px;
-  border-bottom: 3px solid #4a4a4a
+	background-color: #D3D3D3;
+	padding: 10px;
+	margin: 0px;
+	border-bottom: 3px solid #4a4a4a
 }
 
-.container{
-  padding: 0 15px;
+.container {
+	padding: 0 15px;
 }
 
-nav > ul {
-  list-style-type: none;
-  padding: 0;
+nav>ul {
+	list-style-type: none;
+	padding: 0;
 }
-nav > ul > li {
-  display: inline-block;
+
+nav>ul>li {
+	display: inline-block;
 }
-nav > ul >li >a {
-  padding: 0 15px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #4a4a4a;
+
+nav>ul>li>a {
+	padding: 0 15px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #4a4a4a;
 }
+
 body {
-  background-color: #ffffff;
-  font-family: 'Fira Sans', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  /* Sets the font size to 16px */
-  font-weight: 300;
-  /* Sets the font weight to 300 */
-  line-height: 1.6;
-  /* Sets the line-height to 1.6 * the font-size */
-  color: #4a4a4a;
+	background-color: #ffffff;
+	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	/* Sets the font size to 16px */
+	font-weight: 300;
+	/* Sets the font weight to 300 */
+	line-height: 1.6;
+	/* Sets the line-height to 1.6 * the font-size */
+	color: #4a4a4a;
 }
+
 main {
-  padding-top: 133px;
+	padding-top: 133px;
 }
+
 #hero h1 {
-  text-align: center; /* Centers text */
+	text-align: center;
+	/* Centers text */
 }
+
 #hero {
-  background-color: #ffe4c4;
-  padding: 20px 0;
-  display: inline-block;
-  width: 100%;
+	background-color: #ffe4c4;
+	padding: 20px 0;
+	display: inline-block;
+	width: 100%;
 }
+
 footer {
-  background-color: #D3D3D3;
-  padding: 10px;
-  margin: 10px;
-  border-bottom: 3px solid #4a4a4a
+	background-color: #D3D3D3;
+	padding: 10px;
+	margin: 10px;
+	border-bottom: 3px solid #4a4a4a
 }
 
 img {
-  width: 100%;
+	width: 100%;
 }
 
-h1, h2, h3, h4 {
-  line-height: 1.4;
+h1,
+h2,
+h3,
+h4 {
+	line-height: 1.4;
 }
 
 h1 {
-  font-size: 2.75em;
-  font-weight: 700;
+	font-size: 2.75em;
+	font-weight: 700;
 }
 
 h2 {
-  font-size: 2.25em;
-  font-weight: 700;
+	font-size: 2.25em;
+	font-weight: 700;
 }
 
 h3 {
-  font-size: 1.75em;
-  font-weight: 400;
+	font-size: 1.75em;
+	font-weight: 400;
 }
 
 h4 {
-  font-size: 1.35em;
-  font-weight: 400;
+	font-size: 1.35em;
+	font-weight: 400;
 }
-  a {
-    color: #ff7f50;
-    text-decoration: none;
-    /* No underlining */
-  }
 
-  a:hover,
-  a:focus{
-    color: #cc6540;
-    text-decoration: underline;
-    /* Underlining when hovering over a link */
-  }
-  a:visited { /* visited link */
-    color: #ffffff;
-  }
-  a:active { /* selected link */
-    color: #994c30;}
-    .button {
-      display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-      background-color: #ff7f50;
-      color: #ffffff; /* needed to override the default link color */
-      font-weight: 400;
-      padding: 10px;
-      border-radius: 3px;
-      border-bottom: 2px solid #994c30; /* width of the border, type, color */
-      transition: 0.2s opacity;
-    }
-    .button:hover {
-      opacity: 0.8; /* Reduces the opacity of the button to 80% */
-      text-decoration: none;
-    }
+a {
+	color: #ff7f50;
+	text-decoration: none;
+	/* No underlining */
+}
+
+a:hover,
+a:focus {
+	color: #cc6540;
+	text-decoration: underline;
+	/* Underlining when hovering over a link */
+}
+
+a:visited {
+	/* visited link */
+	color: #ffffff;
+}
+
+a:active {
+	/* selected link */
+	color: #994c30;
+}
+
+.button {
+	display: inline-block;
+	/* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+	background-color: #ff7f50;
+	color: #ffffff;
+	/* needed to override the default link color */
+	font-weight: 400;
+	padding: 10px;
+	border-radius: 3px;
+	border-bottom: 2px solid #994c30;
+	/* width of the border, type, color */
+	transition: 0.2s opacity;
+}
+
+.button:hover {
+	opacity: 0.8;
+	/* Reduces the opacity of the button to 80% */
+	text-decoration: none;
+}
