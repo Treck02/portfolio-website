@@ -6,12 +6,12 @@ header {
 }
 
 .container {
-	padding: 0 15px;
+	padding: 5 15px;
 }
 
 nav>ul {
 	list-style-type: none;
-	padding: 0;
+	padding: 5;
 }
 
 nav>ul>li {
@@ -19,7 +19,7 @@ nav>ul>li {
 }
 
 nav>ul>li>a {
-	padding: 0 15px;
+	padding: 5 15px;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #4a4a4a;
